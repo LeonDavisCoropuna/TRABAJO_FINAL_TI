@@ -44,7 +44,7 @@ for(let i=0;i<lista.length;i++){
 addEventListener('click', (e) =>{
     if(e.target.id == "enviar"){
         let xhr = new XMLHttpRequest();
-        let data = document.getElementById("registro");
+        let data = document.getElementById("registro");  //registro= id del formulario
         let form = new FormData(data);
 
         xhr.open('POST',"asistencia.php");
