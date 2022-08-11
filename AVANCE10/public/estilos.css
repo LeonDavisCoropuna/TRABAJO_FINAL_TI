@@ -1,0 +1,23 @@
+.header{
+    background: black;
+    padding: 15px;
+}
+.header ul li{
+    list-style: none;
+    display: inline;
+}
+
+.header ul li a{
+    padding: 10px;
+    color:white;
+    background: black;
+}
+
+.center{
+    text-align: center;
+}
+
+.tabla{
+    margin: auto;
+    
+}

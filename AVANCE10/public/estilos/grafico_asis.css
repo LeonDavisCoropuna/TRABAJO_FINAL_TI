@@ -1,0 +1,167 @@
+
+.contenedor_estadistica{
+    display: flex;
+}
+
+.contenedor_graficos{
+    margin-top: 50px;
+    margin-left: 200px;
+}
+.bloque{
+    background-color: white;
+    margin-top: 50px;
+}
+
+*{
+    text-align: center;
+}
+h1{
+    margin-top: 40px;
+}
+#titulo{
+    font: bold 50px 'Lucida Sans', sans-serif;
+    background-color: aliceblue;
+    padding: 15px;
+}
+#tablaUsuarios{
+    margin-top: 100px;
+}
+body{
+
+    background-color: rgb(232, 235, 244);
+    
+}
+table{
+    margin-top:100px;
+    margin-left: 60px;
+    background-color: rgb(161, 125, 88);
+    border-collapse: separate;
+    border-spacing: 3px 3px;
+    border-radius: 10px;
+}
+
+.estados21{
+    background-color: rgb(242, 220, 191);
+}
+#estadosPTF2{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 0;
+    margin: 0px 22px;
+}
+
+#tablaUsuarios td:hover{
+    background-color: rgb(255, 255, 255);
+}
+
+
+thead th {
+    background-color: rgb(242, 220, 191);
+    border-radius: 10px 10px 0 0;
+    color: rgb(19, 17, 35);
+    padding: 10px 20px;
+    
+}
+
+.finalFila td{
+    border-radius: 0 0 10px 10px;
+}
+tbody td{
+    background-color: rgb(239, 237, 234);
+    text-align: left;
+    color: rgb(5, 5, 5);
+    padding: 8px;
+    margin-right: 5px;
+}
+
+#ID{
+    text-align: center;
+}
+
+
+input[type='text']{
+    background-color: #ffffff;
+    width: 514px;
+    padding: 5px 10px 5px 10px;    
+    border-radius: 6px;
+    border-color: #eaedf0;
+    text-align: left;
+    
+}
+
+input[type='text']:hover{
+    background-color: #eaedf0; 
+    border-radius: 6px;
+    border-color: #ffffff;
+    text-align: left;   
+}
+
+
+#estadoAsistencia{
+    text-align: center;
+}
+input[type='radio']{
+    margin: 0 10px;
+    accent-color: green;
+    transform: scale(1.5);
+	border: 2px solid rgb(117, 47, 202);
+
+}
+input[type='radio']:hover{
+    transform: scale(1.8);
+}
+ 
+.btnFinal{
+    display: flex;
+    margin: 50px 210px;
+    justify-content: center;
+    justify-content: space-between;
+       
+}
+#btnCONSULTA{
+    margin-bottom: 30px;
+}
+input[type='submit'] {
+    padding: 15px;
+    height: 55px;
+    width: 200px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+#footer{
+    margin: 40px;
+    border-top: 1px solid #062945 ;
+    padding: 10px;
+}
+
+.h2{
+    margin-top: 70px;
+}
+
+.notas{
+    border: none;
+    background:  rgb(239, 237, 234);
+    width: 100%;
+    height: 100%;
+    outline: none;
+}
+
+.botones{
+    margin: 3% 35% 3% 35%;
+}
+input[type='button']:hover{
+    transform: scale(1.03);
+}
+input[type='submit']:hover{
+    transform: scale(1.03);
+}
+select{
+    margin: 20px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
